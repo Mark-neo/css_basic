@@ -1,0 +1,28 @@
+body{ background-color:#778899;}
+
+
+/* h1 e h3 do topo */
+#h1-text{color: white;}
+
+#h3-text{ color:yellow;}
+
+
+/* Lista dentro das divs */
+.div-list{
+    color:white;
+}
+
+
+/* sub-títulos, h3 com bordas */
+.h3-border{
+        border-width: 2px;
+        border-color:black;
+        border-style:solid;
+        background-color: yellow;
+}
+
+
+/* div com con linha red*/
+.line-red{color:red;}
+
+
