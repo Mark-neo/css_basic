@@ -1,0 +1,96 @@
+@charset "UFT-8";
+* {margin:0;padding:0;}
+
+body {background: #fff;}
+@font-face {
+    font-family: Nasa;
+    src: url("../../assets/css/Nasa.ttf");
+}
+
+
+
+nav {
+    background: #111;
+    color:#fff;
+    padding: 25px;
+}
+
+/*NAV */
+
+/* text-decoration:none; = tira o sublinhado em baixo do nome*/
+nav  a {color:#fff; text-decoration: none; font-family: "Nasa";}
+
+
+
+
+
+/* nav > ul {list-style:none;}
+Para sumi o ponto do lado do nome da lista.   */
+
+/* float:right;  = para toda a lista ir para o lado direito a tela*/
+nav  ul {list-style:none;float:right;}
+
+
+
+
+
+/* Geralmente perde um pouco o padding*/
+nav  ul li {display:inline;}
+
+
+/* margin-right:5px =  Da um margem lateral somente. */
+nav ul li a {display:inline; margin-right:5px; font-family: "Nasa";}
+
+
+/* quando passar o mouse os hiperlinks <a> ficam cinza (hover faz mudar de cor)*/
+nav ul li a:hover {color:#ccc;}
+
+
+
+/* SECTION 1 */
+.section1 { 
+           background:url("https://wallpapers.com/images/high/apollo-space-nasa-wallpaper-hd-desktop-and-mobile-background-o6ki7845s48vkosr.jpg");
+           background-attachment: fixed;
+           background-repeat: no-repeat;
+           background-size: 100%;
+           text-align: center; text-shadow:blue 2px 2px 2px 2px;padding: 100px;
+           font-family:"Nasa";
+        }
+
+/* ../../  quer dizer que sai 2x de uma página e entrei e entrei na img */
+/*
+
+  background-attachment:fixed;  = manter a imagem fixa. 
+  background-repeat:no-repeat; = não repetir a imagem
+  background-size: 100%; = expandia imagem, ela fica correta.
+*/
+
+
+.section1 h1 {color:white;  text-align: center;  text-shadow:blue 2px 2px 2px 2px; font-family: "Nasa";}
+.section1 h3 {color:white; text-align: center; text-shadow:black 2px 2px 2px 2px; font-family: "Nasa";}
+
+
+
+
+/* SECTION 2 */
+
+.section2 {padding: 100px; background:red;}
+
+
+
+/* SECTION 3 */
+
+.section3 {padding:200px; background:blue;}
+
+
+
+/* FOOTER  */
+
+footer {padding:30px; background:#111;}
+
+
+@media screen and (min-width:768px)
+{.section1 {padding: 400px;}
+.section1 h1 {color:white;  text-align: center;  text-shadow:blue 2px 2px 2px 2px; font-size: 100px;}
+.section1 h3 {color:rgb(255, 255, 255); text-align: center; text-shadow:black 2px 2px 2px 2px; font-size: 30px;}
+}
